@@ -1,13 +1,13 @@
 import React from 'react';
 import Navbar from './Navbar';
 import UserInfo from './UserInfo';
-import Game from './Game';
+import Jeux from './Jeux-Page';
 
 const App = () => {
   return (
     <div className="flex font-fredoka bg-bg-purple-ref">
       <Navbar />
-      <UserInfo />
+      <Jeux />
     </div>
   );
 };

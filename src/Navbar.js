@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Navbar = () => {
   return (
-    <div className=" bg-white border-4 border-purple-300 rounded-lg shadow-lg h-[96vh] mt-[2vh] mb-[2vh] w-[20%] md:w-[20%] ml-[1.5%] py-4 px-4">
+    <div className=" bg-white border-2 border-purple-500 rounded-lg shadow-lg h-[96vh] mt-[2vh] mb-[2vh] w-[20%] md:w-[20%] ml-[1.5%] py-4 px-4">
       <div className="flex items-center justify-center">
         <img
           src="/images/edpLogo.png"
