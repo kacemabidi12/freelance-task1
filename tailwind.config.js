@@ -11,8 +11,12 @@ module.exports = {
       'lg': '1024px',
       'xl': '1280px',
     },
+    backgroundImage: {
+      'bgPicture': "url('/images/bg-pic.png')",
+    },
     extend: {
       colors: {
+        'purple-image': 'rgba(101,91,225,255)',
         'green-button':'rgb(108,189,108)',
         'bg-purple-ref': 'rgba(83,79,137,255)',
         'hover-color': 'rgba(88,77,226,255)',  
